@@ -24,9 +24,33 @@ h1 {
 }
 
 .home-list {
+    display: flex;
+    list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    line-height: 26px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.home-list li { 
+    margin: 0.5em 2em;
+}
+
+.home-list li a, .home-list li a:visited{
+    text-decoration: none;
+    color: black;
+    background-color: #4169e180;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.home-list li a:hover {
+    text-decoration: none;
+    background-color: royalblue;
+    color: black;
+    padding: 0.5em;
+    border-radius: 5px;
 }
 
 h2 {
