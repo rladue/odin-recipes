@@ -21,6 +21,7 @@ h1 {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+    margin: 0.5em;
 }
 
 .home-list {
@@ -90,21 +91,23 @@ li {
     background-color: #bcbcbc;
 }
 
-img {
-    width: 400px;
-    margin: 20px;
-    border: 0px solid #00000000;
+.header-desc p {
+    display: block;
+    height: auto;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.header-desc img {
+    display: block;
+    margin: 1em auto;
+    width: 75%;
+    height: auto;
+    border: 0px solid;
     border-radius: 10px;
 }
 
-.header-desc {
-    display: inline-flex;
-    margin: auto;
-    flex-direction: row-reverse;
-}
-
-.instr {
-    display: flex;
-    flex-direction: column;
-    margin-top: -120px;
+.hr1 {
+    width: 95%;
+    margin: 16px auto;
 }
